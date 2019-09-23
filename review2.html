@@ -46,9 +46,21 @@
 		</nav>	
 		</header><!-- /header -->
 
+
+
+
 		<div class="time mobile-hide"><!--timebar-->
-			<p>Friday, 20.09.2019</p>
+			<p id="demo"> </p>
+			
 		</div>
+			<script>
+					function myFunction() {
+			 		var d = new Date();
+			  		var n = d.toDateString();
+			  		document.getElementById("demo").innerHTML = n;
+					}
+					myFunction();
+			</script>
 		<div class="firstbar">
 
 			<h3>Top News</h3>
